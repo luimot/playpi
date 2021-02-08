@@ -8,7 +8,7 @@
     <application
         android:name="io.flutter.app.FlutterApplication"
         android:label="playpi"
-        android:icon="@mipmap/logo.png">
+        >
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"

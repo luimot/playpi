@@ -24,7 +24,8 @@ class _ConectaState extends State<Conecta> {
         centerTitle: true,
       ),
       floatingActionButton: FloatingActionButton(
-        child:Text("Procurar"),
+        child:Icon(Icons.search),
+        backgroundColor: Colors.black,
         onPressed: (){
           //TODO: IMPLEMENTAR BUSCA NO FLUTTERBLUE
         }
