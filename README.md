@@ -12,3 +12,4 @@ Um aplicativo pra testar conectividade com Raspberry Pi via rede convencional e 
 
 ### Tecnologias e métodos a utilizar
 	- [ServerSocket: Classe de conexão com base em Sockets](https://docs.oracle.com/javase/7/docs/api/java/net/ServerSocket.html)
+	- Talvez use algum serviço AWS para controle no futuro(?)
