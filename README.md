@@ -6,6 +6,8 @@ Um aplicativo pra testar conectividade com Raspberry Pi via rede convencional e 
 
 ### Tecnologias e métodos a utilizar
 	- [FlutterBlue: Uma biblioteca de comunicação Bluetooth (alpha) ](https://pub.dev/packages/flutter_blue)
+	- [Método HTTP POST no Flutter](https://flutter.dev/docs/cookbook/networking/send-data)
+
 ## Server Side do Projeto (Java)
 
 ### Tecnologias e métodos a utilizar
