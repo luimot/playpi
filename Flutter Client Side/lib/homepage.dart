@@ -2,7 +2,7 @@
   TODO: Implementação de comunicação via rede
 */
 import 'package:flutter/material.dart';
-import 'connect.dart';
+import 'connectBT.dart';
 import 'configuracoes.dart';
 
 class HomePage extends StatefulWidget {
