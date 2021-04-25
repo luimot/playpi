@@ -1,5 +1,12 @@
 # playpi
 
-Um aplicativo pra testar conectividade Bluetooth com Raspberry Pi
+Um aplicativo pra testar conectividade com Raspberry Pi via rede convencional e Bluetooth
 
-## Eu tava entediado
+## Client Side do Projeto (Flutter)
+
+### Tecnologias e métodos a utilizar
+	- [FlutterBlue: Uma biblioteca de comunicação Bluetooth (alpha) ](https://pub.dev/packages/flutter_blue)
+## Server Side do Projeto (Java)
+
+### Tecnologias e métodos a utilizar
+	- [ServerSocket: Classe de conexão com base em Sockets](https://docs.oracle.com/javase/7/docs/api/java/net/ServerSocket.html)
