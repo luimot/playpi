@@ -3,6 +3,7 @@
 */
 import 'package:flutter/material.dart';
 import 'connectBT.dart';
+import 'connectHTTP.dart';
 import 'configuracoes.dart';
 
 class HomePage extends StatefulWidget {
@@ -35,6 +36,17 @@ class _HomePageState extends State<HomePage> {
             onTap: () {
               Navigator.push(
                   context, MaterialPageRoute(builder: (context) => Conecta()));
+            },
+          ),
+          ListTile(
+            title: Text(
+              "_Conectar dispositivo",
+              style: TextStyle(color: Colors.black54, fontSize: 22),
+            ),
+            leading: Icon(Icons.wifi),
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => ConectaHTTP()));
             },
           ),
           ListTile(
